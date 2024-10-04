@@ -1,5 +1,5 @@
 # Deep Superpixel Generation and Clustering for Weakly Supervised Segmentation of Brain Tumors in MR Images
-Code for training and running weakly supervised brain tumor segmentation models using simultaneous superpixel generation and clustering
+Code for training and running weakly supervised brain tumor segmentation models using simultaneous superpixel generation and clustering.
 
 ![Flowchart](flowchart.jpg)
 
