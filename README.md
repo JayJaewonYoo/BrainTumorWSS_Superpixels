@@ -3,17 +3,26 @@ Code for training and running weakly supervised brain tumor segmentation models 
 
 ![Flowchart](flowchart.jpg)
 
-Please see [Superpixel Generation and Clustering for Weakly Supervised Brain Tumor Segmentation in MR Images](https://arxiv.org/abs/2209.09930) for details.
+Please see [Superpixel Generation and Clustering for Weakly Supervised Brain Tumor Segmentation in MR Images](https://doi.org/10.1186/s12880-024-01523-x) for details.
 
 If you use this code, please cite:
 ```
-@misc{yoo2022superpixel,
-      title={Superpixel Generation and Clustering for Weakly Supervised Brain Tumor Segmentation in MR Images}, 
-      author={Jay J. Yoo and Khashayar Namdar and Farzad Khalvati},
-      year={2022},
-      eprint={2209.09930},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
+﻿@article{yoo2024superpixel,
+author={Yoo, Jay J.
+and Namdar, Khashayar
+and Khalvati, Farzad},
+title={Deep superpixel generation and clustering for weakly supervised segmentation of brain tumors in MR images},
+journal={BMC Medical Imaging},
+year={2024},
+month={Dec},
+day={18},
+volume={24},
+number={1},
+pages={335},
+abstract={Training machine learning models to segment tumors and other anomalies in medical images is an important step for developing diagnostic tools but generally requires manually annotated ground truth segmentations, which necessitates significant time and resources. We aim to develop a pipeline that can be trained using readily accessible binary image-level classification labels, to effectively segment regions of interest without requiring ground truth annotations.},
+issn={1471-2342},
+doi={10.1186/s12880-024-01523-x},
+url={https://doi.org/10.1186/s12880-024-01523-x}
 }
 ```
 
